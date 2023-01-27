@@ -1,12 +1,67 @@
-
-nav li{
-  float: left;
-  margin: 20px;
-  justify-content: space-between;
-  list-style: none;
+.navbar{
+  background-color: #ff10f0;
   display: flex;
+  width: 700px;
+  border-radius: 30px;
+  height: 50px;
+  padding: 10px;
+  box-shadow: 0 0 50px #ff5f1f;}
+.navbar ul{
+display: flex;  
+float: left;
+list-style: none;
+justify-content: center;
+align-items: center;
+padding: 10px;
+
+} 
+.navbar  a{
+  background-color: #ff5f1f;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  box-shadow: 0 0 40px whitesmoke; 
+  transition: .6s;
+}
+.one{
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.two{
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+nav ul li h1{
+  background-color: #39FF14;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 30px;
+  color: black;
+  transition: .6s;
+  box-shadow: 0 0 50px blue;
+}
+h1:hover{
+  transition: .6s;
+  background: red;
+  color: white;
+  box-shadow: 0 0 50px #39FF14;
+}
+nav a:hover{
+  transition: .6s;
+  background-color: #1F51FF;
+  box-shadow: 0 0 40px blue;
+  color: orange;
+  display: flex;
+  justify-content: center;
   
 }
-nav a {
-  text-decoration: none;
+body{
+  background-image: url('back.jpg');
+  background-size: cover;
+  
+}
+.yt_btn{
+  border-radius: 30px;
+  width: 50px;
+  width: 60px;
 }
